@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: <dockerhub-user>/gitops-demo
+  tag: v1
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 3000
+
